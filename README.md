@@ -4,7 +4,7 @@ Maze Solver README
 
 Description:
 ------------
-This program is designed to solve a maze. A maze consists of open spaces (' ') and walls ('#'), a starting point 'S', and an ending point 'E'. The objective is to find a path from the starting point to the ending point.
+This program is designed to solve a maze. A maze consists of open spaces ('.') and walls ('#'), a starting point 'S', and an ending point 'E'. The objective is to find a path from the starting point to the ending point.
 
 Components:
 -----------
@@ -28,7 +28,7 @@ Components:
 Usage:
 ------
 1. The maze should be in a file with its dimensions specified on the first line (e.g., "5 7" for a maze of 5 rows and 7 columns).
-2. Walls are represented by '#', open paths by ' ', the start point by 'S', and the end point by 'E'.
+2. Walls are represented by '#', open paths by '.', the start point by 'S', and the end point by 'E'.
 3. Run the main method, and you'll be prompted with options to solve the maze using DFS, BFS, or both.
 4. The solution will then display the path from the start to the end point.
 
